@@ -1,3 +1,5 @@
+#Headless Window is a mode where test script runs without invoking the browser
+#It is expected to be faster than running the steps with invoking the browser
 from selenium import webdriver
 
 chrome_options = webdriver.ChromeOptions() #CREATE THE OPTIONS OBJECT
